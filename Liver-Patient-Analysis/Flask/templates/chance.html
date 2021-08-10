@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Liver Patient Analysis</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <style type="text/css">
+        body {
+            /*background-color: #ffcf0059;
+            background-image: 'bg.jpg' repeat 0 0;*/
+            background-image: linear-gradient(to right, rgba(30, 255, 244, 0.808), rgb(5, 74, 179));
+            font-family: 'century gothic';
+        }
+        
+        .page-header {
+            background-image: linear-gradient(to right, rgba(109, 30, 255, 0.808), rgb(109, 5, 179));
+            /*background-color: blue;*/
+            width: 100%;
+            border-radius: 20px;
+            height: auto;
+            text-align: center;
+            padding-top: 5px;
+            color: #fff;
+            text-shadow: 2px 2px #00000017;
+        }
+        
+        h1 {
+            font-size: 40px;
+            font-weight: bold;
+            text-shadow: 2px 2px #00000017;
+        }
+        
+        h3 {
+            color: rgb(182, 4, 4);
+            font-size: 30px;
+            text-align: center;
+            text-shadow: 2px 2px #00000017;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <div class="page-header">
+                    <h1>Liver Patient Prediction</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <div class="p-2 my-2 border">
+                    <h3>{{prediction}}</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>
